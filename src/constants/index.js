@@ -1,4 +1,6 @@
 import about from "../assets/img/about.jpg";
+import header_bg from "../assets/img/header_bg.jpg";
+import jb from "../assets/img/jb.png";
 import port01 from "../assets/img/port01.jpg";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
@@ -13,31 +15,35 @@ import port10 from "../assets/img/port10.jpg";
 
 export const headerNav = [
     {
-        title: "intro",
-        url: "#intro"
+        img: jb
     },
     {
-        title: "skill",
-        url: "#skill"
+        title: "LMS",
+        url: "https://edu.joongbu.ac.kr/"
     },
     {
-        title: "site",
-        url: "#site"
+        title: "대표 홈페이지",
+        url: "https://www.joongbu.ac.kr/index.es?sid=a1"
     },
-    {
-        title: "portfolio",
-        url: "#port"
-    },
-    {
-        title: "contact",
-        url: "#contact"
-    }
+    // {
+    //     title: "site",
+    //     url: "#site"
+    // },
+    // {
+    //     title: "portfolio",
+    //     url: "#port"
+    // },
+    // {
+    //     title: "contact",
+    //     url: "#contact"
+    // }
 ];
 
 export const introText = {
-    title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"],
-    img: about
+    title: "중부대학교",
+    desc: ["정보보호학전공", "창의적이고 경쟁력 있는 IT", "정보보호학과"],
+    img: header_bg,
+    link: "https://www.joongbu.ac.kr/is/"
 }
 
 export const skillText = [

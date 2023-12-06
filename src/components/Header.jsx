@@ -1,6 +1,8 @@
 import React, {useState} from "react";
+import Image from "next/image";
 
 import { headerNav } from "@/constants";
+import jb from "../assets/img/jb.png";
 
 const Header = () => {
     const [show, setShow] = useState(false);
@@ -13,9 +15,13 @@ const Header = () => {
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__logo">
-                    <h1>
-                        <a href="#">portfolio<em>next.js</em></a>
-                    </h1>
+                    <a href="#">
+                        <Image 
+                            src={jb}
+                            width={250}
+                            alt="#"
+                        />
+                    </a>
                 </div>
                 <nav 
                     className={`header__nav ${show ? "show" : ""}`} 
@@ -25,7 +31,7 @@ const Header = () => {
                     <ul>
                         {headerNav.map((nav, key) => (
                             <li key={key}>
-                                <a href={nav.url}>{nav.title}</a>
+                                <a href={nav.url} target="_blank">{nav.title}</a>
                             </li>
                         ))}
                     </ul>

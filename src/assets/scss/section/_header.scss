@@ -2,6 +2,7 @@
     @include position-fixed;
     z-index: 10000;
 }
+
 .header__inner {
     @include flex-between;
     background-color: rgba(116, 99, 99, 0.1);
@@ -14,11 +15,11 @@
         text-transform: uppercase;
         line-height: 1;
 
-        em {
-            font-size: 10px;
-            display: block;
-            color: var(--black200);
-        }
+        // em {
+        //     font-size: 10px;
+        //     display: block;
+        //     color: var(--black200);
+        // }
     }
     
     .header__nav {

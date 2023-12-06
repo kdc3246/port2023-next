@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import header_bg from "../assets/img/header_bg.jpg";
 
 import { introText } from "@/constants";
 
@@ -28,7 +29,7 @@ const Intro = () => {
                     <div className="img">
                         <Image 
                             src={introText.img}
-                            alt="어바웃"
+                            alt="헤더"
                             width={300}
                             height={300}
                             style={{ width: "100%", height: "auto" }}
