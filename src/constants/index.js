@@ -41,14 +41,12 @@ export const headerNav = [
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
-  img: header_bg,
-  link: 'https://www.joongbu.ac.kr/is/',
+  img: header_bg
 };
 
 export const skillText = [
   {
-    title: '김동철 : 꿈을 설계하고 목표를 가지다.',
-    desc: '나는 . 어릴때 세계최고의 검사가 되고싶었다.하지만 꿈을 이루지못한채 나만의 다락방을 좋아하게되었다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다.',
+    title: 'Python'
   },
   {
     title: '열심히 할수록 기회는 따른다.',
