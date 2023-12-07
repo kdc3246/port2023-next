@@ -12,7 +12,6 @@ const Skill = () => {
                 </h2>
                 <div className="skill__desc">
                     {skillText.map((skill, key) => (
-                        
                         <div key={key}>
                             <span>{key+1}.</span>
                             <h3>{skill.title}</h3>
@@ -27,6 +26,6 @@ const Skill = () => {
             </div>
         </section>
     )
-}
+  }  
 
 export default Skill;
