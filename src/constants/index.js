@@ -1,16 +1,16 @@
-import about from '../assets/img/about.jpg'
-import header_bg from '../assets/img/header_bg.jpg'
-import jb from '../assets/img/jb.png'
-import port01 from '../assets/img/port01.jpg'
-import port02 from '../assets/img/port02.jpg'
-import port03 from '../assets/img/port03.jpg'
-import port04 from '../assets/img/port04.jpg'
-import port05 from '../assets/img/port05.jpg'
-import port06 from '../assets/img/port06.jpg'
-import port07 from '../assets/img/port07.jpg'
-import port08 from '../assets/img/port08.jpg'
-import port09 from '../assets/img/port09.jpg'
-import port10 from '../assets/img/port10.jpg'
+import about from '../assets/img/about.jpg';
+import header_bg from '../assets/img/header_bg.jpg';
+import jb from '../assets/img/jb.png';
+import port01 from '../assets/img/port01.jpg';
+import port02 from '../assets/img/port02.jpg';
+import port03 from '../assets/img/port03.jpg';
+import port04 from '../assets/img/port04.jpg';
+import port05 from '../assets/img/port05.jpg';
+import port06 from '../assets/img/port06.jpg';
+import port07 from '../assets/img/port07.jpg';
+import port08 from '../assets/img/port08.jpg';
+import port09 from '../assets/img/port09.jpg';
+import port10 from '../assets/img/port10.jpg';
 
 export const headerNav = [
   {
@@ -36,14 +36,14 @@ export const headerNav = [
   //     title: "contact",
   //     url: "#contact"
   // }
-]
+];
 
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
   img: header_bg,
   link: 'https://www.joongbu.ac.kr/is/',
-}
+};
 
 export const skillText = [
   {
@@ -55,10 +55,10 @@ export const skillText = [
     desc: '운이 좋은 사람은 있다.. 단지 운을 만들 뿐이아니다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.',
   },
   {
-    title: '나에게 정직하다.',
+    title: '이라규 : 나에게 정직하다.',
     desc: '정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.',
   },
-]
+];
 
 export const siteText = [
   {
@@ -105,7 +105,7 @@ export const siteText = [
       'use stack : HTML5/CSS3, Scss Variable, next.js',
     ],
   },
-]
+];
 
 export const portText = [
   {
@@ -198,7 +198,7 @@ export const portText = [
     view: 'https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html',
     name: '포트폴리오',
   },
-]
+];
 
 export const contactText = [
   {
@@ -209,7 +209,7 @@ export const contactText = [
     link: 'mailto:webstoryboy@naver.com',
     title: 'mail : webstoryboy@naver.com',
   },
-]
+];
 
 export const footerText = [
   {
@@ -247,4 +247,4 @@ export const footerText = [
     desc: '넥스트로 만든 사이트를 같이 만들어 봅니다.',
     link: 'https://github.com/webstoryboy/port2023-next',
   },
-]
+];
