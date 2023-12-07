@@ -12,32 +12,6 @@ import port08 from '../assets/img/port08.jpg';
 import port09 from '../assets/img/port09.jpg';
 import port10 from '../assets/img/port10.jpg';
 
-export const headerNav = [
-  {
-    img: jb,
-  },
-  {
-    title: 'LMS',
-    url: 'https://edu.joongbu.ac.kr/',
-  },
-  {
-    title: '대표 홈페이지',
-    url: 'https://www.joongbu.ac.kr/index.es?sid=a1',
-  },
-  // {
-  //     title: "site",
-  //     url: "#site"
-  // },
-  // {
-  //     title: "portfolio",
-  //     url: "#port"
-  // },
-  // {
-  //     title: "contact",
-  //     url: "#contact"
-  // }
-];
-
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
@@ -46,15 +20,73 @@ export const introText = {
 
 export const skillText = [
   {
-    title: 'Python'
+    title: 'Python',
+    desc: [
+      '01. 파이썬이란?',
+      '02. 파이썬 프로그래밍의 기초, 자료형',
+      '03. 프로그램의 구조를 쌓는다! 제어문',
+      '04. 파이썬의 입출력',
+      '05. 파이썬 날개 달기',
+      '06. 파이썬 프로그래밍, 어떻게 시작해야 할까?',
+      '07. 파이썬 날아오르기',
+      '08. 정규표현식',
+      '09. 부록',
+    ],
+    link: [
+      'https://wikidocs.net/5',
+      'https://wikidocs.net/11',
+      'https://wikidocs.net/19',
+      'https://wikidocs.net/23',
+      'https://wikidocs.net/27',
+      'https://wikidocs.net/34',
+      'https://wikidocs.net/184208',
+      'https://wikidocs.net/1669',
+      'https://wikidocs.net/202338'
+    ]
   },
   {
-    title: '열심히 할수록 기회는 따른다.',
-    desc: '운이 좋은 사람은 있다.. 단지 운을 만들 뿐이아니다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.',
+    title: 'webhacking.kr',
+    desc: [
+      'Challenge old-01',
+      'Challenge old-03',
+      'Challenge old-06',
+      'Challenge old-14',
+      'Challenge old-15',
+      'Challenge old-16',
+      'Challenge old-17',
+      'Challenge old-18',
+      'Challenge old-24',
+      'Challenge old-26',
+      'Challenge old-27',
+      'Challenge old-38'
+    ],
+    link: [
+      'https://webhacking.kr/challenge/web-01/',
+      'https://webhacking.kr/challenge/web-03/',
+      'https://webhacking.kr/challenge/web-06/',
+      'https://webhacking.kr/challenge/js-1/',
+      'https://webhacking.kr/challenge/js-2/',
+      'https://webhacking.kr/challenge/js-3/',
+      'https://webhacking.kr/challenge/js-4/',
+      'https://webhacking.kr/challenge/web-32/',
+      'https://webhacking.kr/challenge/bonus-4/',
+      'https://webhacking.kr/challenge/web-11/',
+      'https://webhacking.kr/challenge/web-12/',
+      'https://webhacking.kr/challenge/bonus-9/'
+    ]
   },
   {
-    title: '이라규 : 나에게 정직하다.',
-    desc: '정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.',
+    title: 'Webstandard',
+    desc: [
+      'W3C',
+      '웹 접근성 연구소',
+      '네이버 널리'
+    ],
+    link: [
+      'https://www.w3.org/',
+      'https://www.wah.or.kr:444/',
+      'https://nuli.navercorp.com/'
+    ]
   },
 ];
 
