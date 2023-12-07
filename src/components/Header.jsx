@@ -1,55 +1,33 @@
-import React, {useState} from "react";
-import Image from "next/image";
-
-import { headerNav } from "@/constants";
-import jb from "../assets/img/jb.png";
+import React from "react";
+import { UserButton, SignedIn, SignedOut } from '@clerk/nextjs';
+import Link from 'next/link'
 
 const Header = () => {
-    const [show, setShow] = useState(false);
+  return (
+    <nav className="header">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
 
-    const toggleMenu = () => {
-        setShow((prevShow) => !prevShow);
-    }
-
-    return (
-        <header id="header" role="banner">
-            <div className="header__inner">
-                <div className="header__logo">
-                    <a href="#">
-                        <Image 
-                            src={jb}
-                            width={250}
-                            alt="#"
-                        />
-                    </a>
-                </div>
-                <nav 
-                    className={`header__nav ${show ? "show" : ""}`} 
-                    role="navigation" 
-                    aria-label="메인 메뉴"
-                >
-                    <ul>
-                        {headerNav.map((nav, key) => (
-                            <li key={key}>
-                                <a href={nav.url} target="_blank">{nav.title}</a>
-                            </li>
-                        ))}
-                    </ul>
-                </nav>
-                <div 
-                    className="header__nav__mobile" 
-                    id="headerToggle" 
-                    aria-controls="primary-menu" 
-                    aria-expanded={show ? "true" : "false"} 
-                    role="button"
-                    tabIndex="0"
-                    onClick={toggleMenu}
-                >
-                    <span></span>
-                </div>
+          <Link href="/" className="text-lg text-white font-bold"><img src='/img/jb.png' style={{ width: '300px', height: '100px' }} alt="logo" /></Link>
+        </div>
+        <div className="ml-auto flex items-center font-bold">
+          <SignedOut>
+            <Link href="/sign-in" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>Sign In</Link>
+            <Link href="/sign-up" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>Sign Up</Link>
+          </SignedOut>
+          <SignedIn>
+            <div>
+            <Link href="https://edu.joongbu.ac.kr/" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>LMS</Link>
+            <Link href="https://www.joongbu.ac.kr/index.es?sid=a1" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>대표 홈페이지</Link>
             </div>
-        </header>
-    )
+            <div>
+            <UserButton  />
+            </div>
+          </SignedIn>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Header
+export default Header;
