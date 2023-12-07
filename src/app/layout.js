@@ -1,4 +1,6 @@
 import "@/assets/scss/style.scss";
+import { ClerkProvider } from "@clerk/nextjs";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "포트폴리오 사이트 만들기 🥹 Next-Site",
@@ -8,9 +10,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ko">
-      <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-      <body>{children}</body>
-    </html>
+      <ClerkProvider>
+        <html lang="ko">
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+          <body>
+          <Header />
+            <main className="container">
+            <div className="flex items-start justify-center min-h-screen">
+              <div className="mt-20">{children}</div>
+            </div>
+            </main>
+          </body>
+        </html>
+      </ClerkProvider>
   )
 }
