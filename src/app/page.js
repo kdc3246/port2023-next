@@ -21,7 +21,6 @@ export default function Home(){
     return (
         <>  
             <Skip />
-            <Header />
             <main id="main" role="main">
                 <Intro />
                 <Skill />
