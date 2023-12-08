@@ -22,6 +22,28 @@ export const introText = {
 export const skillText = [
   {
     title: 'Python',
+    desc: [
+      '01. 파이썬이란?',
+      '02. 파이썬 프로그래밍의 기초, 자료형',
+      '03. 프로그램의 구조를 쌓는다! 제어문',
+      '04. 파이썬의 입출력',
+      '05. 파이썬 날개 달기',
+      '06. 파이썬 프로그래밍, 어떻게 시작해야 할까?',
+      '07. 파이썬 날아오르기',
+      '08. 정규표현식',
+      '09. 부록',
+    ],
+    link: [
+      'https://wikidocs.net/5',
+      'https://wikidocs.net/11',
+      'https://wikidocs.net/19',
+      'https://wikidocs.net/23',
+      'https://wikidocs.net/27',
+      'https://wikidocs.net/34',
+      'https://wikidocs.net/184208',
+      'https://wikidocs.net/1669',
+      'https://wikidocs.net/202338'
+    ],
   },
   {
     title: 'webhacking.kr',
