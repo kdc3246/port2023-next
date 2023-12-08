@@ -13,40 +13,15 @@ import port08 from '../assets/img/news08.jpg';
 import port09 from '../assets/img/news09.jpg';
 import port10 from '../assets/img/news10.jpg';
 
-
-
-
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
-  img: header_bg
+  img: header_bg,
 };
 
 export const skillText = [
   {
     title: 'Python',
-    desc: [
-      '01. 파이썬이란?',
-      '02. 파이썬 프로그래밍의 기초, 자료형',
-      '03. 프로그램의 구조를 쌓는다! 제어문',
-      '04. 파이썬의 입출력',
-      '05. 파이썬 날개 달기',
-      '06. 파이썬 프로그래밍, 어떻게 시작해야 할까?',
-      '07. 파이썬 날아오르기',
-      '08. 정규표현식',
-      '09. 부록',
-    ],
-    link: [
-      'https://wikidocs.net/5',
-      'https://wikidocs.net/11',
-      'https://wikidocs.net/19',
-      'https://wikidocs.net/23',
-      'https://wikidocs.net/27',
-      'https://wikidocs.net/34',
-      'https://wikidocs.net/184208',
-      'https://wikidocs.net/1669',
-      'https://wikidocs.net/202338'
-    ]
   },
   {
     title: 'webhacking.kr',
@@ -62,7 +37,7 @@ export const skillText = [
       'Challenge old-24',
       'Challenge old-26',
       'Challenge old-27',
-      'Challenge old-38'
+      'Challenge old-38',
     ],
     link: [
       'https://webhacking.kr/challenge/web-01/',
@@ -76,30 +51,25 @@ export const skillText = [
       'https://webhacking.kr/challenge/bonus-4/',
       'https://webhacking.kr/challenge/web-11/',
       'https://webhacking.kr/challenge/web-12/',
-      'https://webhacking.kr/challenge/bonus-9/'
-    ]
+      'https://webhacking.kr/challenge/bonus-9/',
+    ],
   },
   {
     title: 'Webstandard',
-    desc: [
-      'W3C',
-      '웹 접근성 연구소',
-      '네이버 널리'
-    ],
+    desc: ['W3C', '웹 접근성 연구소', '네이버 널리'],
     link: [
       'https://www.w3.org/',
       'https://www.wah.or.kr:444/',
-      'https://nuli.navercorp.com/'
-    ]
+      'https://nuli.navercorp.com/',
+    ],
   },
 ];
 
 export const siteText = [
   {
-    text: ['make', 'site compliant with', 'webstandard'],
-    title: '비트를 이용한 사이트 제작',
-    code: 'https://github.com/webstoryboy/port2023-vite',
-    view: 'https://port2023-vite.netlify.app',
+    text: ['Ai 챗봇'],
+    title: '궁금한것들을 물어보세요',
+    link: 'https://github.com/webstoryboy/port2023-vite',
     info: [
       'site coding',
       'production period : two days',
