@@ -41,12 +41,12 @@ export const headerNav = [
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
-  img: header_bg
+  img: header_bg,
 };
 
 export const skillText = [
   {
-    title: 'Python'
+    title: 'Python',
   },
   {
     title: '열심히 할수록 기회는 따른다.',
@@ -60,10 +60,9 @@ export const skillText = [
 
 export const siteText = [
   {
-    text: ['make', 'site compliant with', 'webstandard'],
-    title: '비트를 이용한 사이트 제작',
-    code: 'https://github.com/webstoryboy/port2023-vite',
-    view: 'https://port2023-vite.netlify.app',
+    text: ['Ai 챗봇'],
+    title: '궁금한것들을 물어보세요',
+    link: 'https://github.com/webstoryboy/port2023-vite',
     info: [
       'site coding',
       'production period : two days',
