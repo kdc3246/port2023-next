@@ -1,7 +1,7 @@
 
 .footer {padding: 25px 0; text-align: center;}
 .footer ul {margin-bottom: 20px;}
-.footer li {position: relative;display: inline; padding: 0 7px 0 10px;} /*float: left;도 가로 정렬인데 지금상황에선 text-align: center;이 더 강해서 float: left;가 먹히지않아 인라인구조를 이용하여 정렬*/
-.footer li:before {content: '';width: 1px;height: 20px;background: #ccc;position:absolute;left: 0;top: 0;} /*글자 중간중간 막대기 넣기*/
-.footer li:first-child::before {width: 0;height: 0;}/*첫번째 글자 앞에 막대기 필요없으니 빼기*/
+.footer li {position: relative;display: inline; padding: 0 7px 0 10px;}
+.footer li:before {content: '';width: 1px;height: 20px;background: #ccc;position:absolute;left: 0;top: 0;}
+.footer li:first-child::before {width: 0;height: 0;}
 .footer .w3c {margin-top: 15px;}

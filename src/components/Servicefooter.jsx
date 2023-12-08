@@ -13,12 +13,11 @@ const Servicefooter = () => {
               <li><a href="#">사이트 이용약관</a></li>
               <li><a href="#">사이트 운영규칙</a></li>
               <li><a href="#"><strong>개인정보취급방침</strong></a></li>
-              <li><a href="#">책임의 한계와 법적고지</a></li>
-              <li><a href="#">게시중단 요청 서비스</a></li>
               <li><a href="#">고객센터</a></li>
             </ul>
             <address>
-              Copyright&copy;songkungseon.co.kr All Rigtht Rederved
+                  &copy; 2023 보안.com<br />
+                  정보보호학과 웹어플리케이션 & Capstone Design
             </address>
           </div>
         </div>
