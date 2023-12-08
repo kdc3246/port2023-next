@@ -3,9 +3,9 @@ import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: "포트폴리오 사이트 만들기 🥹 Next-Site",
-  description: "한가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다",
-  keywords: ["포트폴리오", "리액트", "뷰", "넥스트", "웹스토리보이", "portfolio", "react.js", "vue.js", "next.js", "webstoryboy"],
+  title: "정보보호학과 종합 플랫폼 🥹 JB",
+  description: "이 플랫폼이 바로 여러분들의 웹 개발 능력을 한 단계 끌어올릴 수 있는 곳입니다.",
+  keywords: ["정보보호학과", "리액트", "뷰", "넥스트", "portfolio", "react.js", "vue.js", "next.js", "jb"],
 }
 
 export default function RootLayout({ children }) {
