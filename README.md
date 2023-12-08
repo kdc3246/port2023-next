@@ -27,11 +27,11 @@
 - HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
 ## 프로젝트 실행
-- next를 설치합니다. `npx create-next-app@latest`
-- sass를 설치합니다. `npm install sass`
-- gsap를 설치합니다. `npm install gsap`
-- lenis를 설치합니다. `npm install @studio-freight/lenis`
-- clerk-auth를 설치합니다. `npm install @clerk/nextjs`
+- package.json에 있는 버전들 설치 : `npm install` 실행
+- MetaMask 설치
+--> chrome 웹 스토어 -> 검색창에 `MetaMask` 검색
+--> Edge용 확장 스토어 -> 검색창에 `MetaMask` 검색
+
 
 ## clerk-auth 설치 후 .env 설정
 # prot2023-next 파일 최상위 경로에서 새파일 -> .env 를 만든 후 아래와 같은 API Key를 넣어줍니다.

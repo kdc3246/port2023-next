@@ -1,3 +1,4 @@
+import link from '@/utils/link';
 import about from '../assets/img/about.jpg';
 import header_bg from '../assets/img/header_bg.jpg';
 import jb from '../assets/img/jb.png';
@@ -83,52 +84,6 @@ export const skillText = [
       'https://www.w3.org/',
       'https://www.wah.or.kr:444/',
       'https://nuli.navercorp.com/',
-    ],
-  },
-];
-
-export const siteText = [
-  {
-    text: ['Ai 챗봇'],
-    title: '궁금한것들을 물어보세요',
-    link: 'https://github.com/webstoryboy/port2023-vite',
-    info: [
-      'site coding',
-      'production period : two days',
-      'use stack : HTML5/CSS3, CSS Variable, Vite',
-    ],
-  },
-  {
-    text: ['make', 'site compliant with', 'react.js'],
-    title: '리액트를 이용한 사이트 제작',
-    code: 'https://github.com/webstoryboy/port2023-react',
-    view: 'https://port2023-react.netlify.app',
-    info: [
-      'site coding',
-      'production period : two days',
-      'use stack : HTML5/CSS3, CSS Variable, react',
-    ],
-  },
-  {
-    text: ['make', 'site compliant with', 'vue.js'],
-    title: '뷰를 이용한 사이트 제작',
-    code: 'https://github.com/webstoryboy/port2023-vue',
-    view: 'https://port2023-vue.netlify.app',
-    info: [
-      'site coding',
-      'production period : two days',
-      'use stack : HTML5/CSS3, Scss Variable, vue',
-    ],
-  },
-  {
-    text: ['make', 'site compliant with', 'next.js'],
-    title: '넥스트를 이용한 사이트 제작',
-    code: 'https://github.com/webstoryboy/port2023-next',
-    view: 'https://port2023-next.netlify.app',
-    info: [
-      'site coding',
-      'production period : two days',
-      'use stack : HTML5/CSS3, Scss Variable, next.js',
     ],
   },
 ];
@@ -228,49 +183,53 @@ export const portText = [
 
 export const contactText = [
   {
-    link: 'https://open.kakao.com/o/gM7YLzwf',
-    title: 'KAKAO : webstupids',
+    link: 'https://github.com/kdc3246/port2023-next',
+    title: 'Git : Branch Repositories',
   },
   {
-    link: 'mailto:webstoryboy@naver.com',
-    title: 'mail : webstoryboy@naver.com',
+    link: 'https://vercel.com/',
+    title: 'vercel : port2023-Next',
+  },
+];
+
+export const portfolioLinks = [
+  {
+    title: '김동철의 개인 포트폴리오',
+    link: '#'
+  },
+  {
+    title: '송경선의 개인 포트폴리오',
+    link: 'https://my-profile-two-kappa.vercel.app/'
+  },
+  {
+    title: '이라규의 개인 포트폴리오',
+    link: '#'
+  },
+  {
+    title: '이건우의 개인 포트폴리오',
+    link: '#'
   },
 ];
 
 export const footerText = [
   {
-    title: 'youtube',
-    desc: '유튜브에 오시면 더 많은 강의를 볼 수 있습니다.',
-    link: 'https://www.youtube.com/@Webstoryboy',
+    title: '김동철',
+    desc: '안녕하세요. 김동철의 Git Hub 입니다.',
+    link: 'https://github.com/kdc3246?tab=repositories',
   },
   {
-    title: 'github',
-    desc: '깃헙에 오시면 더 많은 소스를 볼 수 있습니다.',
-    link: 'https://github.com/webstoryboy',
+    title: '송경선',
+    desc: '안녕하세요. 송경선의 Git Hub 입니다.',
+    link: 'https://github.com/songkungsun?tab=repositories',
   },
   {
-    title: 'blog',
-    desc: '블러그에 오시면 더 많은 정보를 볼 수 있습니다.',
-    link: 'https://webstoryboy.co.kr',
+    title: '이라규',
+    desc: '안녕하세요. 이라규의 Git Hub 입니다.',
+    link: 'https://github.com/ragyu?tab=repositories',
   },
   {
-    title: 'gsap',
-    desc: 'GSAP에 오시면 더 많은 강의를 볼 수 있습니다.',
-    link: 'https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq',
-  },
-  {
-    title: 'react',
-    desc: '리액트로 만든 사이트를 같이 만들어 봅니다.',
-    link: 'https://github.com/webstoryboy/port2023-react',
-  },
-  {
-    title: 'vue',
-    desc: '뷰로 만든 사이트를 같이 만들어 봅니다.',
-    link: 'https://github.com/webstoryboy/port2023-vue',
-  },
-  {
-    title: 'next',
-    desc: '넥스트로 만든 사이트를 같이 만들어 봅니다.',
-    link: 'https://github.com/webstoryboy/port2023-next',
+    title: '이건우',
+    desc: '안녕하세요. 이건우의 Git Hub 입니다.',
+    link: 'https://github.com/lgw7537?tab=repositories',
   },
 ];
