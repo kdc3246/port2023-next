@@ -34,10 +34,6 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="footer__right">
-                    &copy; 2023 보안.com<br />
-                    정보보호학과 웹어플리케이션 & Capstone Design
-                </div>
             </div>
         </footer>
     )

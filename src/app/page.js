@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import smooth from "@/utils/smooth";
 import link from "@/utils/link";
+import Servicefooter from "@/components/Servicefooter";
 
 export default function Home(){
     useEffect(() => {
@@ -26,6 +27,7 @@ export default function Home(){
                 <Contact />
             </main>
             <Footer />
+            <Servicefooter />
         </>
     )
 }
