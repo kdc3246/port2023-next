@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../app/dashboard/Servicefooter.module.css'
-import { footerText } from "@/constants";
+import Link from "next/link";
 
 const Servicefooter = () => {
     return (
@@ -9,11 +9,11 @@ const Servicefooter = () => {
 
           <div className={styles.footer}>
             <ul>
-              <li><a href="#">사이트 도움말</a></li>
-              <li><a href="#">사이트 이용약관</a></li>
-              <li><a href="#">사이트 운영규칙</a></li>
-              <li><a href="#"><strong>개인정보취급방침</strong></a></li>
-              <li><a href="#">고객센터</a></li>
+              <li><Link href="https://github.com/kdc3246/port2023-next#readme" target="_blank">사이트 도움말</Link></li>
+              <li><Link href="#">사이트 이용약관</Link></li>
+              <li><Link href="#">사이트 운영규칙</Link></li>
+              <li><Link href="#"><strong>개인정보취급방침</strong></Link></li>
+              <li><Link href="#">고객센터</Link></li>
             </ul>
             <address>
                   &copy; 2023 보안.com<br />
