@@ -1,17 +1,18 @@
 import Ai from '@/components/Ai';
+import Servicefooter from '@/components/Servicefooter';
 
 const DashboardPage = () => {
   return (
     <div>
       <div>
-        <h1 className="text-2xl font-bold mb-5">Dashboard</h1>
+        <h1 className="text-2xl font-bold mb-5"></h1>
         <p className="mb-5">
-          Welcome to Dashboard. This page shows the personal information of the
-          logged-in user.
+  
         </p>
       </div>
       <div>
         <Ai />
+        <Servicefooter/>
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ const Header = () => {
           </SignedOut>
           <SignedIn>
             <div style={{ display: 'flex', alignItems: 'center' ,marginRight: '20px'}}>
-              <Link href="/dashboard" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>대시보드</Link>
+              <Link href="/dashboard" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }}>AI챗봇</Link>
               <Link href="https://edu.joongbu.ac.kr/" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }} target="_balnk">LMS</Link>
               <Link href="https://www.joongbu.ac.kr/index.es?sid=a1" className="text-gray-300 hover:text-white mr-4" style={{ marginRight: '20px' }} target="_balnk">대표 홈페이지</Link>
               <UserButton style={{ marginLeft: '20px' }}/>
