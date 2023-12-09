@@ -1,24 +1,24 @@
-import link from '@/utils/link';
-import about from '../assets/img/about.jpg';
-import header_bg from '../assets/img/header_bg.jpg';
-import jb from '../assets/img/jb.png';
+import link from '@/utils/link'
+import about from '../assets/img/about.jpg'
+import header_bg from '../assets/img/header_bg.jpg'
+import jb from '../assets/img/jb.png'
 // import port01 from '../assets/img/port01.jpg';
-import port01 from '../assets/img/news01.jpg';
-import port02 from '../assets/img/news02.jpg';
-import port03 from '../assets/img/news03.jpg';
-import port04 from '../assets/img/news04.jpg';
-import port05 from '../assets/img/news05.jpg';
-import port06 from '../assets/img/news06.jpg';
-import port07 from '../assets/img/news07.jpg';
-import port08 from '../assets/img/news08.jpg';
-import port09 from '../assets/img/news09.jpg';
-import port10 from '../assets/img/news10.jpg';
+import port01 from '../assets/img/news01.jpg'
+import port02 from '../assets/img/news02.jpg'
+import port03 from '../assets/img/news03.jpg'
+import port04 from '../assets/img/news04.jpg'
+import port05 from '../assets/img/news05.jpg'
+import port06 from '../assets/img/news06.jpg'
+import port07 from '../assets/img/news07.jpg'
+import port08 from '../assets/img/news08.jpg'
+import port09 from '../assets/img/news09.jpg'
+import port10 from '../assets/img/news10.jpg'
 
 export const introText = {
   title: '중부대학교',
   desc: ['정보보호학전공', '창의적이고 경쟁력 있는 IT', '정보보호학과'],
   img: header_bg,
-};
+}
 
 export const skillText = [
   {
@@ -43,7 +43,7 @@ export const skillText = [
       'https://wikidocs.net/34',
       'https://wikidocs.net/184208',
       'https://wikidocs.net/1669',
-      'https://wikidocs.net/202338'
+      'https://wikidocs.net/202338',
     ],
   },
   {
@@ -86,7 +86,7 @@ export const skillText = [
       'https://nuli.navercorp.com/',
     ],
   },
-];
+]
 
 export const portText = [
   {
@@ -179,7 +179,7 @@ export const portText = [
     view: 'https://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=&menu_dist=1&seq=34254&key=&dir_group_dist=&dir_code=&searchDate=',
     name: '안랩보안뉴스',
   },
-];
+]
 
 export const contactText = [
   {
@@ -190,26 +190,26 @@ export const contactText = [
     link: 'https://vercel.com/',
     title: 'vercel : port2023-Next',
   },
-];
+]
 
 export const portfolioLinks = [
   {
     title: '김동철의 개인 포트폴리오',
-    link: '#'
+    link: '#',
   },
   {
     title: '송경선의 개인 포트폴리오',
-    link: 'https://my-profile-two-kappa.vercel.app/'
+    link: 'https://my-profile-two-kappa.vercel.app/',
   },
   {
     title: '이라규의 개인 포트폴리오',
-    link: '#'
+    link: '#',
   },
   {
     title: '이건우의 개인 포트폴리오',
-    link: '#'
+    link: 'https://3-2portpoilo.vercel.app/',
   },
-];
+]
 
 export const footerText = [
   {
@@ -232,4 +232,4 @@ export const footerText = [
     desc: '안녕하세요. 이건우의 Git Hub 입니다.',
     link: 'https://github.com/lgw7537?tab=repositories',
   },
-];
+]
