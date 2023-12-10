@@ -8,14 +8,14 @@
 
 안녕하세요, 반갑습니다! 정보보호학과 학생 여러분, 이 플랫폼이 바로 여러분들의 웹 개발 능력을 한 단계 끌어올릴 수 있는 곳입니다.
 
-여기에서는 정보보호학과를 소개하며, 그 과정에서 다양한 전문 직업 진로를 알아 갈 수 있습니다. 정보보호학과 종합 플랫폼이란 학생들이 직접 궁금한 것을 해결해주는 플랫폼이고, 이를 통해 수강 신청 및 각 학년의 맞는 과목을 손 쉽게 볼 수 있다는 장점이 있습니다. 
+여기에서는 정보보호학과를 소개하며, 그 과정에서 다양한 전문 직업 진로를 알아 갈 수 있습니다. 정보보호학과 종합 플랫폼이란 학생들이 직접 궁금한 것을 해결해주는 플랫폼이고, 이를 통해 수강 신청 및 각 학년의 맞는 과목을 손 쉽게 볼 수 있다는 장점이 있습니다.
 
 특히, 이 플랫폼에서는 학생들이 직접 궁금한 것을 해결해주는 것 뿐만 아니라 Python, Webhacking.kr 등 다양하게 공부할 수 있습니다. 이를 통해, 여러분들의 능력 향상을 올려주며 직업 진로에 대해서 또는 학교의 정보와 정보보호학과 과목에 대해서 알아 갈 수 있습니다. 이 과정은 깊이 있는 학습보다는, 다양한 방법을 사용하여 정보보호학과를 알아갑니다!
 
 그럼 이제, 여러분들이 이 플랫폼에서 어떤 경험을 쌓고, 어떤 능력을 향상시킬 수 있을지 기대해보세요. 행운을 빕니다!
 
-## 완성작 보기 
-미리보기 : 
+## 완성작 보기
+미리보기 :
 
 ## 사용 스택
 - next(https://nextjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
@@ -30,14 +30,3 @@
 - MetaMask 설치
 --> chrome 웹 스토어 -> 검색창에 `MetaMask` 검색
 --> Edge용 확장 스토어 -> 검색창에 `MetaMask` 검색
-
-
-## clerk-auth 설치 후 .env 설정
-# prot2023-next 파일 최상위 경로에서 새파일 -> .env 를 만든 후 아래와 같은 API Key를 넣어줍니다.
-- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZXRlcm5hbC10ZXJyaWVyLTk0LmNsZXJrLmFjY291bnRzLmRldiQ
-- CLERK_SECRET_KEY=sk_test_2CY26DrNj3JYICYjHlVrMeqHTZYzOHlQAOJKvIyEbf
-
-- NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-- NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-- NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-- NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
