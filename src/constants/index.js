@@ -199,7 +199,7 @@ export const portfolioLinks = [
   },
   {
     title: '송경선의 개인 포트폴리오',
-    link: 'https://my-profile-two-kappa.vercel.app/',
+    link: 'https://mt-portfolio-livid.vercel.app/',
   },
   {
     title: '이라규의 개인 포트폴리오',
