@@ -187,7 +187,7 @@ export const contactText = [
     title: 'Git : Branch Repositories',
   },
   {
-    link: 'https://vercel.com/',
+    link: 'https://port2023-next-theta.vercel.app/',
     title: 'vercel : port2023-Next',
   },
 ]
@@ -195,7 +195,7 @@ export const contactText = [
 export const portfolioLinks = [
   {
     title: '김동철의 개인 포트폴리오',
-    link: '#',
+    link: 'https://my-portfolio-three-psi-89.vercel.app/',
   },
   {
     title: '송경선의 개인 포트폴리오',
