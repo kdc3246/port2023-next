@@ -192,7 +192,7 @@ export const contactText = [
   },
   {
     link: 'https://www.youtube.com/watch?v=uX-yPLmkWik',
-    title: 'Youtube : Demo video',
+    title: 'Youtube : Demo',
   },
 ]
 
