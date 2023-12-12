@@ -203,7 +203,7 @@ export const portfolioLinks = [
   },
   {
     title: '이라규의 개인 포트폴리오',
-    link: '#',
+    link: 'https://my-project-ragyu.vercel.app/',
   },
   {
     title: '이건우의 개인 포트폴리오',
