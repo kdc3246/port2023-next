@@ -190,6 +190,10 @@ export const contactText = [
     link: 'https://port2023-next-theta.vercel.app/',
     title: 'vercel : port2023-Next',
   },
+  {
+    link: 'https://www.youtube.com/watch?v=uX-yPLmkWik',
+    title: 'Youtube : Demo',
+  },
 ]
 
 export const portfolioLinks = [
